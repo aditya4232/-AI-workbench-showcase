@@ -13,7 +13,7 @@ export function ExperienceTimeline() {
           subtitle="Six months at ScriptBees Pvt Ltd"
         />
 
-        {experiences.map((exp, idx) => (
+        {experiences.map((exp) => (
           <motion.div
             key={`${exp.company}-${exp.period}`}
             className="relative pl-10"

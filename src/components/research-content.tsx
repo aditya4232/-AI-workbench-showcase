@@ -92,7 +92,7 @@ export function ResearchContent() {
         <ul className="list-disc pl-5 mt-4 text-sm text-muted-foreground space-y-2">
           <li><strong>DigitalOcean App Platform:</strong> Deployed the Invoice OCR and Python backend logic using Dockerfiles and auto-deployed via GitHub webhooks.</li>
           <li><strong>Hugging Face Spaces:</strong> Hosted Gradio/Streamlit based LLM applications to take advantage of managed GPU compute infrastructure dynamically.</li>
-          <li><strong>Vercel & Next.js:</strong> This portfolio and related frontends leverage Vercel's Edge Network for global caching and high-speed asset delivery using SSG (Static Site Generation).</li>
+          <li><strong>Vercel & Next.js:</strong> This portfolio and related frontends leverage Vercel&apos;s Edge Network for global caching and high-speed asset delivery using SSG (Static Site Generation).</li>
         </ul>
       </motion.section>
 

@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { TechTag } from "@/components/tech-tag";
 import { StatusBadge } from "@/components/status-badge";
 import { Button } from "@/components/ui/button";
-import { AICard } from "@/components/ui/ai-card";
 import { ArrowLeft, GitHub, ExternalLink } from "@/components/icons";
 import type { Project } from "@/lib/types";
 
