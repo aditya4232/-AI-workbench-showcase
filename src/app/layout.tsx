@@ -17,15 +17,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "AI Engineering Showcase · ScriptBees Internship",
+    default: "AI Engineering Showcase",
     template: `%s · AI Engineering Showcase`,
   },
   description:
-    "Six production AI systems built during the ScriptBees AI Engineering internship: RAG pipelines, multi-agent frameworks, OCR engines, NLP classifiers, and LLM-powered applications — with detailed case studies, methodology, research references, and learnings.",
+    "Six production AI systems built during an AI Engineering internship: RAG pipelines, multi-agent frameworks, OCR engines, NLP classifiers, and LLM-powered applications — with detailed case studies, methodology, research references, and learnings.",
   keywords: [
     "AI Engineering",
     "Internship Showcase",
-    "ScriptBees",
     "RAG",
     "LLM",
     "NLP",
@@ -41,18 +40,18 @@ export const metadata: Metadata = {
   authors: [{ name: "Aditya Shenvi" }],
   creator: "Aditya Shenvi",
   openGraph: {
-    title: "AI Engineering Showcase · ScriptBees Internship",
+    title: "AI Engineering Showcase",
     description:
-      "Six production AI systems built during the ScriptBees AI Engineering internship — with detailed case studies, methodology, research papers, and technical learnings.",
+      "Six production AI systems built during an AI Engineering internship — with detailed case studies, methodology, research papers, and technical learnings.",
     locale: "en_US",
     type: "website",
     siteName: "AI Engineering Showcase",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Engineering Showcase · ScriptBees Internship",
+    title: "AI Engineering Showcase",
     description:
-      "Six production AI systems built during the ScriptBees AI Engineering internship — with detailed case studies, methodology, research papers, and technical learnings.",
+      "Six production AI systems built during an AI Engineering internship — with detailed case studies, methodology, research papers, and technical learnings.",
   },
   robots: {
     index: true,
@@ -73,17 +72,13 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Collection",
-    name: "AI Engineering Showcase · ScriptBees Internship",
+    name: "AI Engineering Showcase",
     description:
-      "A detailed showcase of six production AI systems built during the ScriptBees AI Engineering internship — RAG pipelines, multi-agent frameworks, LLM applications, OCR engines, and NLP classifiers — with methodology, research references, and technical learnings.",
+      "A detailed showcase of six production AI systems built during an AI Engineering internship — RAG pipelines, multi-agent frameworks, LLM applications, OCR engines, and NLP classifiers — with methodology, research references, and technical learnings.",
     creator: {
       "@type": "Person",
       name: "Aditya Shenvi",
       jobTitle: "AI Engineering Intern",
-    },
-    about: {
-      "@type": "Organization",
-      name: "ScriptBees Pvt Ltd",
     },
   };
 

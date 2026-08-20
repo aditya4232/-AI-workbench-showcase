@@ -10,7 +10,7 @@ export function ExperienceTimeline() {
       <div className="mx-auto max-w-3xl">
         <SectionHeading
           title="Internship"
-          subtitle="Six months at ScriptBees Pvt Ltd"
+          subtitle="Six months of AI Engineering work"
         />
 
         {experiences.map((exp) => (

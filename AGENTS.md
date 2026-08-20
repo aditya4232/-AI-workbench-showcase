@@ -6,7 +6,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 # AI Workbench Showcase
 
-A focused project showcase documenting the ScriptBees AI Engineering internship (Jan–Jun 2026). Not a personal portfolio — purely a collection of projects built, skills learned, and work done during the internship.
+A focused project showcase documenting an AI Engineering internship (Jan–Jun 2026). Not a personal portfolio — purely a collection of projects built, skills learned, and work done during the internship.
 
 ## Tech Stack
 
@@ -22,7 +22,7 @@ A focused project showcase documenting the ScriptBees AI Engineering internship 
 - **Dark mode default:** The `<html>` element has `className="dark"` — all components default to dark theme
 - **Components are client components** when using Framer Motion (`"use client"` directive)
 - **Data is static:** All project/experience/skill data lives in `src/data/` files — no external API calls at build time
-- **ScriptBees only:** All projects listed were built during the ScriptBees AI Engineering internship (Jan–Jun 2026); personal and academic projects are excluded
+- **Internship projects only:** All projects listed were built during an AI Engineering internship (Jan–Jun 2026); personal and academic projects are excluded
 - **params are async:** In Next.js 16, `params` must be awaited in page components
 
 ## Project Structure
@@ -63,8 +63,8 @@ src/
 │   ├── status-badge.tsx
 │   └── theme-toggle.tsx
 ├── data/
-│   ├── projects.ts          # 8 ScriptBees internship projects with case study data + metrics
-│   ├── experience.ts        # ScriptBees internship + education
+│   ├── projects.ts          # 8 internship projects with case study data + metrics
+│   ├── experience.ts        # Internship experience + education
 │   └── skills.ts            # 6 skill categories
 └── lib/
     ├── types.ts             # TypeScript interfaces (Project includes metrics?)

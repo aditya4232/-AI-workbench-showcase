@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-const baseUrl = "https://showcase.scriptbees.com";
+const baseUrl = "https://your-domain.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {

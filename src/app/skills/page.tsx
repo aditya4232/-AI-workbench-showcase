@@ -4,7 +4,7 @@ import { SkillsMatrix } from "@/components/skills-matrix";
 export const metadata: Metadata = {
   title: "Skills",
     description:
-      "Technologies and tools used during the ScriptBees AI Engineering internship — AI/ML, languages, frontend, backend, cloud, and databases.",
+      "Technologies and tools used during the AI Engineering internship — AI/ML, languages, frontend, backend, cloud, and databases.",
 };
 
 export default function SkillsPage() {

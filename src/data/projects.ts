@@ -6,14 +6,14 @@ export const projects: Project[] = [
     title: "Talentradar System",
     subtitle: "AI-Powered Recruitment Matching Engine (Production)",
     description:
-      "Designed and deployed an NLP-driven candidate-job matching system for production use at ScriptBees, reducing manual screening time by approximately 60% through intelligent resume parsing and compatibility scoring.",
+      "Designed and deployed an NLP-driven candidate-job matching system for production use, reducing manual screening time by approximately 60% through intelligent resume parsing and compatibility scoring.",
     longDescription:
-      "Led the development of a production-grade recruitment matching system that automatically analyzes job descriptions and candidate profiles using NLP techniques. The system computes compatibility scores across skills, experience, and education dimensions, enabling recruiters to shortlist candidates from hundreds of applications in minutes rather than hours. Built as a core product offering for ScriptBees, the system processes batch uploads and integrates with existing ATS platforms via a REST API.",
+      "Led the development of a production-grade recruitment matching system that automatically analyzes job descriptions and candidate profiles using NLP techniques. The system computes compatibility scores across skills, experience, and education dimensions, enabling recruiters to shortlist candidates from hundreds of applications in minutes rather than hours. The system processes batch uploads and integrates with existing ATS platforms via a REST API.",
     techStack: ["Python", "NLP", "Pandas", "Flask", "scikit-learn", "REST API"],
     status: "deployed",
     githubUrl: "https://github.com/aditya4232/Talentradar-System",
     features: [
-      "Production deployment at ScriptBees — processes live candidate-job matching workloads",
+      "Production deployment — processes live candidate-job matching workloads",
       "NLP-based job description and resume parsing with TF-IDF vectorization and semantic similarity",
       "Multi-dimensional compatibility scoring (skills match, experience relevance, education alignment)",
       "Skill extraction and gap analysis for targeted recruitment outreach",

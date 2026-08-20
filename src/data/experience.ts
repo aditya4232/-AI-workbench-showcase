@@ -9,7 +9,7 @@ export const education = {
 export const experiences: Experience[] = [
   {
     role: "AI Engineering Intern",
-    company: "ScriptBees Pvt Ltd",
+    company: "Technology Firm",
     period: "Jan 2026 – June 1st Week 2026",
     type: "Internship",
     achievements: [

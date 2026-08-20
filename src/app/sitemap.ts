@@ -3,7 +3,7 @@ import { projects } from "@/data/projects";
 
 export const dynamic = "force-static";
 
-const baseUrl = "https://showcase.scriptbees.com";
+const baseUrl = "https://your-domain.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
