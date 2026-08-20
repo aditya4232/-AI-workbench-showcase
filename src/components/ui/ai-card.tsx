@@ -34,21 +34,27 @@ export function AICard({
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.4, delay }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.5, delay, ease: [0.21, 0.47, 0.32, 0.98] }}
       className={cn(
         "relative group rounded-xl overflow-hidden border border-border bg-card",
-        "transition-all duration-300",
+        "transition-all duration-300 ease-out",
         hover && [
-          "hover:shadow-md",
+          "hover:shadow-lg hover:shadow-primary/5",
+          "hover:-translate-y-1",
           accentBorder[accent],
           accentGlow[accent],
-          "dark:hover:shadow-lg",
+          "dark:hover:shadow-xl dark:hover:shadow-primary/10",
         ],
         className
       )}
     >
-      <div className="relative z-10">{children}</div>
+      <div className="relative z-10 p-6">{children}</div>
+      {hover && (
+        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
+        </div>
+      )}
     </motion.div>
   );
 }
